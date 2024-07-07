@@ -329,6 +329,9 @@ ${
     )
     const tokens = getTokenCount(summarizePrompt)
 
+    const testCasePrompt = prompts.renderTest(ins)
+    info(`test cases: test case suggestion for ${filename}`)
+
     if (tokens > options.lightTokenLimits.requestTokens) {
       info(`summarize: diff tokens exceeds limit, skip ${filename}`)
       summariesFailed.push(`${filename} (diff tokens exceeds limit)`)
