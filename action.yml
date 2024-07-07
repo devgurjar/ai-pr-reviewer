@@ -198,7 +198,7 @@ inputs:
         - Optimization
         - Best practices: DRY, SOLID, KISS
         - Test Case Generation
-        
+
       Do not comment on minor code style issues, missing 
       comments/documentation. Identify and resolve significant 
       concerns to improve overall code quality while deliberately 
@@ -211,6 +211,8 @@ inputs:
 
       - **Walkthrough**: A high-level summary of the overall change instead of 
         specific files within 80 words.
+      - **Testcases**: Write a unit test case for the new feature or bug fix. 
+        If the code is not testable, explain why and suggest a better design.
       - **Changes**: A markdown table of files and their summaries. Group files 
         with similar changes together into a single row to save space.
       - **Poem**: Below the changes, include a whimsical, short poem written by 
