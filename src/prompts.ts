@@ -184,7 +184,7 @@ Instructions:
 - You should generate a test case for the code changes in the given PR.
 - The test case should be in JavaScript.
 - The test case should test the function in the code changes.
-- The test case should be a Jest test case.
+- The test case should be a Jest unit test case.
 - The test case should be generated based on the code changes in the PR.
 `
   comment = `A comment was made on a GitHub PR review for a 
