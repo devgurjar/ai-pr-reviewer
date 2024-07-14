@@ -180,9 +180,9 @@ $patches
   testCase = `Your task is to provide a test case for code changes in given ## GitHub PR. 
 
 Instructions:
-- You are a unit test generating AI assistant. You generates Java unit test cases for a function.
+- You are a unit test generating AI assistant. You generates JavaScript unit test cases for a function.
 - You should generate a test case for the code changes in the given PR.
-- The test case should be in Java.
+- The test case should be in JavaScript.
 - The test case should test the function in the code changes.
 - The test case should be a Jest test case.
 - The test case should be generated based on the code changes in the PR.
